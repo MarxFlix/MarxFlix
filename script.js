@@ -4,7 +4,7 @@ function goToIndex() {
 
 fetch('data.json')
 .then(response => response.json())
-.then(documentaries => populateCarousels(documentaries))
+.then(entries => populateCarousels(entries))
 .catch(error => console.error('Err data load:', error));
 
 function getServiceAndLogo(url) {
@@ -32,8 +32,8 @@ function getServiceAndLogo(url) {
 	return { logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/F1_red_flag.svg/1280px-F1_red_flag.svg.png' };
 }
 
-function populateCarousels(documentaries) {
-	documentaries.forEach(doc => {
+function populateCarousels(entries) {
+	entries.forEach(doc => {
 		doc.topic.forEach(topic => {
 			const carouselContent = document.getElementById(`${topic.toLowerCase()}-content`);
 			if (carouselContent) {
@@ -49,7 +49,7 @@ function populateCarousels(documentaries) {
 					<div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
 					</div>
 				</div>
-				<div class="tone-popup">Approximates the tone to be between casual and strictly analytical.</div>
+				<div class="tone-popup">Approximates the tone to be between casual and strictly informational.</div>
 				<div class="links">
 					${doc.links.map(link => {
 					const { logo } = getServiceAndLogo(link);
@@ -94,15 +94,19 @@ function formatDuration(duration) {
 	return output;
 }
 
-const toneDiv = document.querySelector('.tone');
-const tonePopup = document.querySelector('.tone-popup');
+document.addEventListener('DOMContentLoaded', () => {
+    const toneDivs = document.querySelectorAll('.tone'); // Get all tone divs
+    const tonePopups = document.querySelectorAll('.tone-popup'); // Get all tone popups
 
-toneDiv.addEventListener('mouseenter', () => {
-	tonePopup.style.display = 'block';
-});
+    toneDivs.forEach((toneDiv, index) => {
+        toneDiv.addEventListener('mouseenter', () => {
+            tonePopups[index].style.display = 'block';
+        });
 
-toneDiv.addEventListener('mouseleave', () => {
-	tonePopup.style.display = 'none';
+        toneDiv.addEventListener('mouseleave', () => {
+            tonePopups[index].style.display = 'none';
+        });
+    });
 });
 
 function updateBackgroundEmoji(element) {
