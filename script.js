@@ -94,12 +94,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toneDivs.forEach((toneDiv, index) => {
         toneDiv.addEventListener('mouseenter', () => {
-            tonePopups[index].style.display = 'block';
+            const popup = tonePopups[index];
+            popup.style.display = 'block';
+
+            const rect = toneDiv.getBoundingClientRect();
+            popup.style.left = `${rect.left}px`;
+            popup.style.top = `${rect.bottom}px`;
         });
 
         toneDiv.addEventListener('mouseleave', () => {
             tonePopups[index].style.display = 'none';
         });
+
+        toneDiv.addEventListener('click', () => {
+            const popup = tonePopups[index];
+            const isVisible = popup.style.display === 'block';
+
+            tonePopups.forEach(p => p.style.display = 'none');
+            popup.style.display = isVisible ? 'none' : 'block';
+
+            if (!isVisible) {
+                const rect = toneDiv.getBoundingClientRect();
+                popup.style.left = `${rect.left}px`;
+                popup.style.top = `${rect.bottom}px`;
+            }
+        });
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.tone')) {
+            tonePopups.forEach(p => p.style.display = 'none');
+        }
     });
 });
 
