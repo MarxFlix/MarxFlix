@@ -44,6 +44,7 @@ function populateCarousels(entries) {
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
+    				<div class="emoji-background"></div>
 				<h3>${doc.title}</h3>
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
@@ -64,7 +65,7 @@ function populateCarousels(entries) {
 					}).join('')}
 				</div>
     				`;
-				updateBackgroundEmoji(docElement, doc);
+				assignEmojis(doc.bg);
 				carouselContent.appendChild(docElement);
 			}
 		});
@@ -114,7 +115,8 @@ function toneLabel(level) {
 	return output;
 }
 
-function updateBackgroundEmoji(element, doc) {
-	let emojis = doc.bg ? doc.bg.join(' ') : "⬜ ⬜ ⬜";
-	element.style.setProperty('--bg-emoji', `'${emojis}'`);
+function assignEmojis(input){
+	let emojis = input ? input.join(' ') : "⬜ ⬜ ⬜";
+	const emojiBackground = document.querySelector('.emoji-background');
+    	emojiBackground.textContent = emojis;
 }
