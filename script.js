@@ -37,12 +37,14 @@ function populateCarousels(entries) {
 		doc.topic.forEach(topic => {
 			const carouselContent = document.getElementById(`${topic.toLowerCase()}-content`);
 			if (carouselContent) {
+				const duration = doc.duration || '0';
+				const formattedDuration = formatDuration(duration);
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
 				<h3>${doc.title}</h3>
 				<p>${doc.description}</p>
-				<p><b>Duration: ${formatDuration(doc.runtime)}</b></p>
+				<p><b>Duration: ${formattedDuration}</b></p>
 				<div class="tone">
 					<span>tone:</span>
 					<div class="tone-container">
