@@ -35,7 +35,7 @@ function populateCarousels(documentaries) {
 			if (carouselContent) {
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
-				docElement.innerHTML = '
+				/*docElement.innerHTML = '';
 				<h3>${doc.title}</h3>
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formatDuration(doc.runtime)}</b></p>
@@ -56,9 +56,8 @@ function populateCarousels(documentaries) {
 					`;
 					}).join('')}
 				</div>
-				';
 				updateBackgroundEmoji(docElement);
-				carouselContent.appendChild(docElement);
+				carouselContent.appendChild(docElement);*/
 			}
 		});
 	});
