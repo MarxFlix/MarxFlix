@@ -130,5 +130,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function updateBackgroundEmoji(element, doc) {
 	let emojis = doc.bg ? doc.bg.join(' ') : "⬜ ⬜ ⬜";
-   	element.style.setProperty('--bg-emoji', 'emojis');
+	element.style.setProperty('--bg-emoji', `'${emojis}'`);
 }
