@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarxFlix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffedbd;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: #b83030;
+            margin: 20px 0;
+            font-size: 4em;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: #333;
+            margin: 20px 0;
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .button {
+            background-color: #ffdc82;
+            color: #000000;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 5px;
+            font-size: 1.8em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            width: 250px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .button:hover {
+            background-color: #e0c05c;
+            transform: scale(1.05);
+        }
+
+        .feedback {
+            margin: 40px 0;
+            color: #555;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #b83030;
+            color: #ffffff;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MarxFlix</h1>
+    <h2>The People's Content Portal</h2>
+
+    <div class="button-container">
+        <button class="button" onclick="location.href='theory.html'">Theory</button>
+        <button class="button" onclick="location.href='society.html'">Society</button>
+        <button class="button" onclick="location.href='geography.html'">Geography</button>	
+    </div>
+
+    <div class="feedback">
+        Please contact u/ThrowawayClosetedML for any suggestions!
+    </div>
+
+    <footer>
+        <p>MarxFlix is an aggregate site designed to help people explore content relevant to a given area of interest. The media presented on this site has educational merit, but should generally be regarded as entertainment.</p>
+    </footer>
+
+</body>
+</html>
