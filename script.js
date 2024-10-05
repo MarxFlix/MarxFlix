@@ -66,7 +66,7 @@ function populateCarousels(documentaries) {
 }
 
 function goToMain() {
-    window.location.href = 'main.html';
+    window.location.href = 'index.html';
 }
 
 function formatDuration(duration) {
