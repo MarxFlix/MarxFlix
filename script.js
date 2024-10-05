@@ -51,7 +51,6 @@ function populateCarousels(entries) {
 					<div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
 					</div>
 				</div>
-				<div class="tone-popup">Approximates the tone to be between casual and strictly informational.</div>
 				<div class="links">
 					${doc.links.map(link => {
 					const { logo } = getServiceAndLogo(link);
@@ -87,46 +86,6 @@ function formatDuration(duration) {
 	
 	return output;
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    const toneDivs = document.querySelectorAll('.tone'); // Get all tone divs
-    const tonePopups = document.querySelectorAll('.tone-popup'); // Get all tone popups
-
-    toneDivs.forEach((toneDiv, index) => {
-        toneDiv.addEventListener('mouseenter', () => {
-            const popup = tonePopups[index];
-            popup.style.display = 'block';
-
-            const rect = toneDiv.getBoundingClientRect();
-            popup.style.left = `${rect.left}px`;
-            popup.style.top = `${rect.bottom}px`;
-        });
-
-        toneDiv.addEventListener('mouseleave', () => {
-            tonePopups[index].style.display = 'none';
-        });
-
-        toneDiv.addEventListener('click', () => {
-            const popup = tonePopups[index];
-            const isVisible = popup.style.display === 'block';
-
-            tonePopups.forEach(p => p.style.display = 'none');
-            popup.style.display = isVisible ? 'none' : 'block';
-
-            if (!isVisible) {
-                const rect = toneDiv.getBoundingClientRect();
-                popup.style.left = `${rect.left}px`;
-                popup.style.top = `${rect.bottom}px`;
-            }
-        });
-    });
-
-    document.addEventListener('click', (event) => {
-        if (!event.target.closest('.tone')) {
-            tonePopups.forEach(p => p.style.display = 'none');
-        }
-    });
-});
 
 function updateBackgroundEmoji(element, doc) {
 	let emojis = doc.bg ? doc.bg.join(' ') : "⬜ ⬜ ⬜";
