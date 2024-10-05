@@ -19,13 +19,13 @@ function getServiceAndLogo(url) {
 		}
 	}
 
-	/*for (const [key, value] of Object.entries(services)) {
+	for (const [key, value] of Object.entries(services)) {
 		if (url.includes(key)) {
 			return value;
 		}
 	}
 	
-	return { logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/F1_red_flag.svg/1280px-F1_red_flag.svg.png' };*/
+	return { logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/F1_red_flag.svg/1280px-F1_red_flag.svg.png' };
 }
 
 function populateCarousels(documentaries) {
@@ -35,7 +35,7 @@ function populateCarousels(documentaries) {
 			if (carouselContent) {
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
-				/*docElement.innerHTML = '';
+				docElement.innerHTML = '';
 				<h3>${doc.title}</h3>
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formatDuration(doc.runtime)}</b></p>
@@ -57,7 +57,7 @@ function populateCarousels(documentaries) {
 					}).join('')}
 				</div>
 				updateBackgroundEmoji(docElement);
-				carouselContent.appendChild(docElement);*/
+				carouselContent.appendChild(docElement);
 			}
 		});
 	});
