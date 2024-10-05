@@ -45,7 +45,7 @@ function populateCarousels(documentaries) {
 					<div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
 					</div>
 				</div>
-				<div class="tone-popup">Approximates the content's tone between casual and strictly analytical.</div>
+				<div class="tone-popup">Approximates the tone to be between casual and strictly analytical.</div>
 				<div class="links">
 					${doc.links.map(link => {
 					const { logo } = getServiceAndLogo(link);
