@@ -39,6 +39,8 @@ function populateCarousels(entries) {
 			if (carouselContent) {
 				const duration = doc.duration || '0';
 				const formattedDuration = formatDuration(duration);
+				const tone = doc.tone || '69';
+				const labelledTone = toneLabel(tone);
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
@@ -46,9 +48,9 @@ function populateCarousels(entries) {
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
 				<div class="tone">
-					<span>Tone:</span>
+					<span>Tone: ${labelledTone}</span>
 					<div class="tone-container">
-					<div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
+					<div class="tone-bar" style="width: ${(tone / 5) * 100}%"></div>
 					</div>
 				</div>
 				<div class="links">
@@ -82,6 +84,31 @@ function formatDuration(duration) {
 	} else {
 		minutes = parseInt(duration, 10);
 		output = `🕒 ${minutes}`;
+	}
+	
+	return output;
+}
+
+function toneLabel(level) {
+	let output = '';
+	
+	if (level = 1) {
+		output = "Entertainment";
+	}
+	if (level = 2) {
+		output = "Edutainment";
+	}
+	if (level = 3) {
+		output = "Insightful";
+	}
+	if (level = 4) {
+		output = "Informational";
+	}
+	if (level = 5) {
+		output = "Analytical";
+	}
+	else {
+		output = "ERR: INVALID VALUE";
 	}
 	
 	return output;
