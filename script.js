@@ -1,22 +1,19 @@
+// Fetch the documentary data from the local JSON file
 fetch('data.json')
     .then(response => response.json())
     .then(documentaries => populateCarousels(documentaries))
-    .catch(error => console.error('Err data load:', error));
+    .catch(error => console.error('Error loading the data:', error));
 
+// Function to detect service based on URL
 function getServiceAndLogo(url) {
     const services = {
         'youtube.com': {
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png'
-        },
-	'nebula.tv': {
-            logo: 'https://upload.wikimedia.org/wikipedia/en/b/b6/Nebula_Logo.png'
-        },
-	'means.tv': {
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Means.tv_wordmark.jpg'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png'
         },
         'vimeo.com': {
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vimeo_Logo.svg/70px-Vimeo_Logo.svg.png'
+            logo: 'https://upload.wikimedia.org/vimeo-logo.png'
         }
+        // Add more services as needed
     };
 
     for (const [key, value] of Object.entries(services)) {
@@ -25,7 +22,8 @@ function getServiceAndLogo(url) {
         }
     }
     
-    return { logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/F1_red_flag.svg/1280px-F1_red_flag.svg.png' };
+    // Default service logo if no match found
+    return { logo: 'https://via.placeholder.com/50' };
 }
 
 function populateCarousels(documentaries) {
@@ -62,45 +60,6 @@ function populateCarousels(documentaries) {
     });
 }
 
-
-function formatDuration(duration) {
-    let hours = 0;
-    let minutes = 0;
-    let output = '';
-
-    if (duration.includes(':')) {
-        const parts = duration.split(':');
-        hours = parseInt(parts[0], 10);
-        minutes = parseInt(parts[1], 10);
-
-        output += `⏳ ${hours} 🕒 ${minutes}\n`;
-        
-        output += `${hours} Hour(s) and ${minutes} Minute(s)\n`;
-        output += `[${'#'.repeat(hours)}]    [${'#'.repeat(Math.floor(minutes / 2))}]\n`;
-    } else {
-        minutes = parseInt(duration, 10);
-
-        output += `🕒 ${minutes}\n`;
-
-        output += `${minutes} Minute(s)\n`;
-        output += `[${'#'.repeat(Math.floor(minutes / 2))}]\n`;
-    }
-
-    return output;
-}
-
-const toneDiv = document.querySelector('.tone');
-const tonePopup = document.querySelector('.tone-popup');
-
-toneDiv.addEventListener('mouseenter', () => {
-    tonePopup.style.display = 'block';
-});
-
-toneDiv.addEventListener('mouseleave', () => {
-    tonePopup.style.display = 'none';
-});
-
-function updateBackgroundEmoji(carouselElement) {
-    const bgEmojis = carouselElement.getAttribute('data-bg');
-    carouselElement.style.setProperty('--bg-emoji', `"${bgEmojis}"`);
+function goToMain() {
+    window.location.href = 'main.html';
 }
