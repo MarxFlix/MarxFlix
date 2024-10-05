@@ -45,45 +45,103 @@ main {
 
 .carousel {
     margin: 20px 0;
+    overflow: hidden;
+}
+
+.carousel::before {
+    content: var(--bg-emoji, "");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 100px;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
 }
 
 .carousel h2 {
     margin: 10px 0;
-    color: #b83030; /* Dark red for carousel headings */
+    color: #b83030;
 }
 
 .carousel-content {
     display: flex;
     overflow-x: auto;
     padding: 10px;
-    scrollbar-width: thin; /* For Firefox */
+    scrollbar-width: thin;
 }
 
 .carousel-content::-webkit-scrollbar {
-    height: 8px; /* For Chrome, Safari, and Opera */
+    height: 8px;
 }
 
 .carousel-content::-webkit-scrollbar-thumb {
-    background: #ccc; /* Scrollbar color */
+    background: #ccc;
     border-radius: 10px;
 }
 
 .doc-item {
-    background: #ffffff; /* White background for items */
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     margin-right: 20px;
     padding: 15px;
-    min-width: 200px; /* Minimum width for the item */
-    max-width: 300px; /* Limit the width to prevent overflow */
+    min-width: 200px;
+    max-width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 0 0 auto; /* Prevent flex items from shrinking */
+    flex: 0 0 auto;
+    z-index: 2;
 }
 
 .doc-item a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #b83030; /* Dark red for links */
+    color: #b83030;
+}
+
+.tone-popup {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 200px;
+}
+
+.tone {
+    position: relative;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.tone:hover .tone-popup {
+    display: block;
+}
+
+.tone span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tone-container {
+    height: 10px;
+    background-color: #ffdc82;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tone-bar {
+    height: 100%;
+    background-color: #b83030;
+    border-radius: 5px;
 }
 
 .links a {
