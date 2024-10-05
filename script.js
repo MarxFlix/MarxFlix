@@ -46,7 +46,7 @@ function populateCarousels(entries) {
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
 				<div class="tone">
-					<span>tone:</span>
+					<span>Tone:</span>
 					<div class="tone-container">
 					<div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
 					</div>
@@ -79,18 +79,10 @@ function formatDuration(duration) {
 		const parts = duration.split(':');
 		hours = parseInt(parts[0], 10);
 		minutes = parseInt(parts[1], 10);
-		
-		output += `⏳ ${hours} 🕒 ${minutes}\n`;
-		
-		output += `${hours} Hour(s) and ${minutes} Minute(s)\n`;
-		output += `[${'#'.repeat(hours)}]    [${'#'.repeat(Math.floor(minutes / 2))}]\n`;
+		output = `⏳ ${hours} 🕒 ${minutes}`;
 	} else {
 		minutes = parseInt(duration, 10);
-		
-		output += `🕒 ${minutes}\n`;
-		
-		output += `${minutes} Minute(s)\n`;
-		output += `[${'#'.repeat(Math.floor(minutes / 2))}]\n`;
+		output = `🕒 ${minutes}`;
 	}
 	
 	return output;
