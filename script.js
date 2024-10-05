@@ -38,36 +38,30 @@ function populateCarousels(documentaries) {
                 docElement.innerHTML = `
                     <h3>${doc.title}</h3>
                     <p>${doc.description}</p>
-                    <p><b>Duration: ${formatDuration(doc.runtime)}</b></p>
-                    <div class="tone">
-                        <span>tone:</span>
-                        <div class="tone-container">
-                            <div class="tone-bar" style="width: ${(doc.tone / 5) * 100}%"></div>
+                    <p><b>Runtime: ${doc.runtime}</b></p>
+                    <div class="intensity">
+                        <span>Intensity:</span>
+                        <div class="intensity-container">
+                            <div class="intensity-bar" style="width: ${(doc.intensity / 3) * 100}%"></div>
                         </div>
-                        <div class="tone-popup">Approximates the content's tone between casual and strictly analytical.</div>
                     </div>
                     <div class="links">
                         ${doc.links.map(link => {
                             const { logo } = getServiceAndLogo(link);
                             return `
                                 <a href="${link}" target="_blank">
-                                    <img src="${logo}" style="width: 50px; height: auto; vertical-align: middle;">
+                                    <img src="${logo}" alt="Service logo" style="width: 50px; height: auto; vertical-align: middle;">
                                 </a>
                             `;
                         }).join('')}
                     </div>
                 `;
                 carouselContent.appendChild(docElement);
-                const bgEmojis = doc.bg ? doc.bg.join(' ') : "⬜ ⬜ ⬜";
-                updateBackgroundEmoji(carouselElement);
             }
         });
     });
 }
 
-function goToMain() {
-    window.location.href = 'index.html';
-}
 
 function formatDuration(duration) {
     let hours = 0;
