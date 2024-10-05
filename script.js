@@ -1,3 +1,7 @@
+function goToIndex() {
+    window.location.href = 'index.html';
+}
+
 fetch('data.json')
 .then(response => response.json())
 .then(documentaries => populateCarousels(documentaries))
@@ -62,10 +66,6 @@ function populateCarousels(documentaries) {
 			}
 		});
 	});
-}
-
-function goToIndex() {
-    window.location.href = 'index.html';
 }
 
 function formatDuration(duration) {
