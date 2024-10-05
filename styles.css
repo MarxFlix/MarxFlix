@@ -43,26 +43,24 @@ main {
     padding: 80px 20px;
 }
 
-.carousel {
-    position: relative;
-    margin: 20px 0;
-    overflow: hidden;
-}
-
-.carousel::before {
-    content: var(--bg-emoji, "");
+.emoji-background {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    font-size: 100px;
-    opacity: 0.3;
     display: flex;
-    align-items: center;
     justify-content: center;
-    white-space: nowrap;
-    z-index: 1;
+    align-items: center;
+    font-size: 3rem;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.carousel {
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
 }
 
 .carousel h2 {
