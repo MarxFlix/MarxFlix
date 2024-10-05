@@ -63,7 +63,7 @@ function populateCarousels(entries) {
 					}).join('')}
 				</div>
     				`;
-				updateBackgroundEmoji(docElement);
+				updateBackgroundEmoji(docElement, doc);
 				carouselContent.appendChild(docElement);
 			}
 		});
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function updateBackgroundEmoji(element) {
+function updateBackgroundEmoji(element, doc) {
 	let emojis = doc.bg ? doc.bg.join(' ') : "⬜ ⬜ ⬜";
    	element.style.setProperty('--bg-emoji', 'emojis');
 }
