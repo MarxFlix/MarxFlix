@@ -74,6 +74,7 @@ main {
 .carousel-content {
     display: flex;
     overflow-x: auto;
+    overflow-y: hidden;
     padding: 10px;
     scrollbar-width: thin;
     position: relative;
