@@ -76,7 +76,7 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 10px;
-    scrollbar-width: thin;
+    scrollbar-width: thick;
     position: relative;
     z-index: 1;
 }
