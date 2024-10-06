@@ -73,7 +73,7 @@ function populateCarousels(entries) {
 }
 
 function stringifyEmojis(emojis){
-	let output = emojis ? emojis.join(' ') : "⬜ ⬜";
+	let output = emojis ? emojis.join('') : "⬜ ⬜";
 	return output;
 }
 
