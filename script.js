@@ -98,19 +98,19 @@ function formatDuration(duration) {
 function toneLabel(level) {
 	let output = '';
 	
-	if (level = 1) {
+	if (level === 1) {
 		output = "Entertainment";
 	}
-	if (level = 2) {
+	else if (level === 2) {
 		output = "Edutainment";
 	}
-	if (level = 3) {
+	else if (level === 3) {
 		output = "Insightful";
 	}
-	if (level = 4) {
+	else if (level === 4) {
 		output = "Informational";
 	}
-	if (level = 5) {
+	else if (level === 5) {
 		output = "Analytical";
 	}
 	else {
