@@ -76,13 +76,13 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 10px;
-    scrollbar-width: thick;
+    scrollbar-width: auto;
     position: relative;
     z-index: 1;
 }
 
 .carousel-content::-webkit-scrollbar {
-    height: 8px;
+    height: 16px;
 }
 
 .carousel-content::-webkit-scrollbar-thumb {
