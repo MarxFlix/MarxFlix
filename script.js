@@ -99,19 +99,19 @@ function toneLabel(level) {
 	let output = '';
 	
 	if (level === 1) {
-		output = "Entertainment";
+		output = "Casual Entertainment";
 	}
 	else if (level === 2) {
-		output = "Insightful Entertainment";
+		output = "Primarily Entertainment";
 	}
 	else if (level === 3) {
-		output = "Edutainment";
+		output = "Insightful Edutainment";
 	}
 	else if (level === 4) {
-		output = "Informational";
+		output = "Primarily Informational";
 	}
 	else if (level === 5) {
-		output = "Analytical";
+		output = "Strictly Informational";
 	}
 	else {
 		output = "ERR: INVALID VALUE";
