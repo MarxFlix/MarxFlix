@@ -37,6 +37,7 @@ function populateCarousels(entries) {
 		doc.topic.forEach(topic => {
 			const carouselContent = document.getElementById(`${topic.toLowerCase()}-content`);
 			if (carouselContent) {
+				const emojis = stringifyEmojis(doc.bg);
 				const duration = doc.duration || '0';
 				const formattedDuration = formatDuration(duration);
 				const tone = doc.tone || '69';
@@ -44,7 +45,7 @@ function populateCarousels(entries) {
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
-    				<div class="emoji-background"></div>
+    				<div class="emoji-background">${emojis}</div>
 				<h3>${doc.title}</h3>
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
@@ -65,11 +66,15 @@ function populateCarousels(entries) {
 					}).join('')}
 				</div>
     				`;
-				assignEmojis(doc.bg);
 				carouselContent.appendChild(docElement);
 			}
 		});
 	});
+}
+
+function stringifyEmojis(emojis){
+	let output = emojis ? emojis.join(' ') : "⬜ ⬜ ⬜";
+	return output;
 }
 
 function formatDuration(duration) {
@@ -113,10 +118,4 @@ function toneLabel(level) {
 	}
 	
 	return output;
-}
-
-function assignEmojis(input){
-	let emojis = input ? input.join(' ') : "⬜ ⬜ ⬜";
-	const emojiBackground = document.querySelector('.emoji-background');
-    	emojiBackground.textContent = emojis;
 }
