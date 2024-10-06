@@ -1,14 +1,397 @@
 [
-  {
-    "title": "Why Housing Keeps Getting More Expensive",
-    "description": "The financialization of housing.",
-    "duration": "21",
-    "bg": ["🏚️", "📈"],
-    "links": [
-    "https://www.youtube.com/watch?v=woz4KgUbIMc",
-    "https://means.tv/programs/secondthought?cid=3887598&permalink=st_the-real-reason-housing-is-so-expensive"
-    ],
-    "topic": ["Property"],
-    "tone": 4
-  }
+{
+"title": "Making the Case for a Planned Economy",
+"description": "Do planned economies work? Have they worked? Should we try to implement it in the 21st century?",
+"duration": "12",
+"bg": ["♟️", "🪙"],
+"links": [
+"https://www.youtube.com/watch?v=JOe1GsV8ZLM"
+],
+"topic": ["Economy"],
+"tone": 4
+},
+{
+"title": "What is imperialism?",
+"description": "A live podcast all about imperialism.",
+"duration": "1:04",
+"bg": ["🏛", "🌐"],
+"links": [
+"https://www.youtube.com/watch?v=gb3o-zDJgqI"
+],
+"topic": ["Imperialism"],
+"tone": 4
+},
+{
+"title": "Debunking Every Anti-Communist Argument Ever",
+"description": "Debunking a series of anti-communist talking points.",
+"duration": "40",
+"bg": ["🗣", "⚔️"],
+"links": [
+"https://www.youtube.com/watch?v=MjwL1mSrPLA"
+],
+"topic": ["Praxis"],
+"tone": 2
+},
+{
+"title": "The Overton Window",
+"description": "What is the Overton window? How can the left use it?",
+"duration": "13",
+"bg": ["🗳", "🪟"],
+"links": [
+"https://www.youtube.com/watch?v=UK1Ikx6el1E"
+],
+"topic": ["Praxis"],
+"tone": 4
+},
+{
+"title": "Nationalism: Good? Bad? It's Complicated",
+"description": "Nationalism may be more than what you think it is!",
+"duration": "18",
+"bg": ["🏳", "🌐"],
+"links": [
+"https://www.youtube.com/watch?v=2GneiFly1GI"
+],
+"topic": ["Praxis"],
+"tone": 3
+},
+{
+"title": "Socialism for Absolute Beginners",
+"description": "What is socialism, and is it really all that bad?",
+"duration": "25",
+"bg": ["👶", "☭"],
+"links": [
+"https://www.youtube.com/watch?v=fpKsygbNLT4",
+"https://means.tv/programs/secondthought?cid=3568717&permalink=socialism-for-absolute-beginners"
+],
+"topic": ["Theory101"],
+"tone": 4
+},
+{
+"title": "Books You Need to Read to Understand Marxism",
+"description": "Reading guide for beginners.",
+"duration": "17",
+"bg": ["📕", "📒"],
+"links": [
+"https://www.youtube.com/watch?v=XWGhnEcMZA0"
+],
+"topic": ["Theory101"],
+"tone": 5
+},
+
+
+{
+"title": "Why Housing Keeps Getting More Expensive",
+"description": "The financialization of housing.",
+"duration": "21",
+"bg": ["🏚️", "📈"],
+"links": [
+"https://www.youtube.com/watch?v=woz4KgUbIMc",
+"https://means.tv/programs/secondthought?cid=3887598&permalink=st_the-real-reason-housing-is-so-expensive"
+],
+"topic": ["Housing"],
+"tone": 4
+},
+{
+"title": "Monopoly is Anti-Landlord Propaganda",
+"description": "Monopoly: an ingenious piece of anti-landlord propaganda.",
+"duration": "47",
+"bg": ["👨‍💼", "🎲"],
+"links": [
+"https://www.youtube.com/watch?v=B7nFA19Gzrw",
+"https://nebula.tv/videos/tomnicholas-how-capitalism-stole-monopoly"
+],
+"topic": ["Housing"],
+"tone": 2
+},
+{
+"title": "How Landlords Ruined Everything",
+"description": "A video about the housing crisis and how landlords ruined everything.",
+"duration": "23",
+"bg": ["🏡", "🏚️"],
+"links": [
+"https://www.youtube.com/watch?v=QoT0QLzcOzE",
+"https://nebula.tv/videos/tomnicholas-how-landlords-ruined-everything"
+],
+"topic": ["Housing"],
+"tone": 3
+},
+{
+"title": "Gentrification",
+"description": "A short film that showcases urban death.",
+"duration": "5",
+"bg": ["🏙", "🏫"],
+"links": [
+"https://www.youtube.com/watch?v=Qpr8gTsrAF0"
+],
+"topic": ["Housing"],
+"tone": 1
+},
+{
+"title": "How The Media Promotes Transphobia",
+"description": "The dangers of the so-called “trans debate” and what journalists and right-wing politicians are really trying to achieve.",
+"duration": "49",
+"bg": ["⚧️", "📺"],
+"links": [
+"https://www.youtube.com/watch?v=oAMM3l156Oo",
+"https://nebula.tv/videos/tomnicholas-how-the-media-promotes-transphobia"
+],
+"topic": ["Queer"],
+"tone": 3
+},
+{
+"title": "How Capitalism Causes Depression",
+"description": "How capitalism ruins our mental health.",
+"duration": "21",
+"bg": ["🪙", "🧠"],
+"links": [
+"https://www.youtube.com/watch?v=OOt6pOjJc5E"
+],
+"topic": ["MentalHealth"],
+"tone": 5
+},
+{
+"title": "Racism in the Indian Community",
+"description": "Investigating anti-black racism in the Indian community.",
+"duration": "1:04",
+"bg": ["🇮🇳", "⚠️"],
+"links": [
+"https://www.youtube.com/watch?v=dK9vKBVENQQ",
+"https://nebula.tv/videos/foreignman-racism-in-the-indian-community"
+],
+"topic": ["Racism", "India"],
+"tone": 3
+},
+{
+"title": "How Capitalism Destroys Feminism",
+"description": "How neoliberal individualism has morphed feminism into a performative act by upper class white women.",
+"duration": "17",
+"bg": ["👩", "💼"],
+"links": [
+"https://www.youtube.com/watch?v=JmURE1me20Q"
+],
+"topic": ["Sexism"],
+"tone": 3
+},
+{
+"title": "Capitalism Might Just Kill Us All",
+"description": "How capitalism is leading us towards a mass extinction.",
+"duration": "17",
+"bg": ["🌱", "🔥"],
+"links": [
+"https://www.youtube.com/watch?v=oeWyARGkFDc"
+],
+"topic": ["Environment"],
+"tone": 4
+},
+{
+"title": "Why We Need Socialism",
+"description": "How and why socialism is crucial to mitigating climate change and building a just and equitable world.",
+"duration": "29",
+"bg": ["🌱", "☭"],
+"links": [
+"https://www.youtube.com/watch?v=DjUr2HwdHwg",
+"https://nebula.tv/videos/occ-how-we-end-capitalism"
+],
+"topic": ["Environment"],
+"tone": 4
+},
+
+
+
+{
+"title": "How 'Terrorism' Became a Dirty Word",
+"description": "The history of the word 'Terrorism', from 19th century Russia to today.",
+"duration": "31",
+"bg": ["💥", "🧭"],
+"links": [
+"https://www.youtube.com/watch?v=4ED6opUDeg8"
+],
+"topic": ["Language"],
+"tone": 4
+},
+{
+"title": "Why Socialism is Red",
+"description": "The red flag is an icon of the socialist movement, but have you ever stopped to wonder why?",
+"duration": "6",
+"bg": ["☭", "🚩"],
+"links": [
+"https://www.youtube.com/watch?v=MFc485MaAyY"
+],
+"topic": ["Symbolism"],
+"tone": 2
+},
+{
+"title": "May Day Explained",
+"description": "What is May Day and what does it commemorate?",
+"duration": "1",
+"bg": ["🌹", "🗓"],
+"links": [
+"https://www.youtube.com/watch?v=i-ulhdrB_rE"
+],
+"topic": ["Symbolism"],
+"tone": 3
+},
+{
+"title": "Why May 1st is a Socialist Holiday",
+"description": "The history of May Day.",
+"duration": "17",
+"bg": ["🌹", "🗓"],
+"links": [
+"https://www.youtube.com/watch?v=3-Hrx8FDIoM"
+],
+"topic": ["Symbolism"],
+"tone": 2
+},
+{
+"title": "Guns, Germs and Steel: A Historical Critique",
+"description": "A critique of chapter 3 of Jared Diamond's book.",
+"duration": "54",
+"bg": ["📖", "❌"],
+"links": [
+"https://www.youtube.com/watch?v=kq6EuZj4axA"
+],
+"topic": ["Art"],
+"tone": 3
+},
+{
+"title": "HBO's Watchmen and Liberalism: Is a Better World Possible?",
+"description": "Damon Lindelof's Watchmen series exposes the shortcomings of neoliberalism... Or does it?",
+"duration": "18",
+"bg": ["🥸", "🎬"],
+"links": [
+"https://www.youtube.com/watch?v=B496r3bPwQ8"
+],
+"topic": ["Art"],
+"tone": 1
+},
+
+
+
+{
+"title": "Remembering Argentina's Dictatorship: History as Social Conflict",
+"description": "Remembering Argentina's chaotic and violent 1973-1983 period.",
+"duration": "52",
+"bg": ["🇦🇷", "☠️"],
+"links": [
+"https://www.youtube.com/watch?v=8mFeQ6gIfgg"
+],
+"topic": ["Argentina"],
+"tone": 3
+},
+{
+"title": "Taking History for Granted: Batman's Treaty",
+"description": "Exploring common sense history through Aboriginal Australia.",
+"duration": "29",
+"bg": ["🇦🇺", "📜"],
+"links": [
+"https://www.youtube.com/watch?v=K0cLGou6cbM"
+],
+"topic": ["Australia"],
+"tone": 4
+},
+{
+"title": "How Cuba Works",
+"description": "A desperately needed primer on Cuba.",
+"duration": "32",
+"bg": ["🇨🇺", "🤔"],
+"links": [
+"https://www.youtube.com/watch?v=DXBYlC4-0bQ"
+],
+"topic": ["Cuba"],
+"tone": 5
+},
+{
+"title": "How Democracy Works in Cuba",
+"description": "How does the Cuban democratic system work? Do they even have elections?",
+"duration": "13",
+"bg": ["🇨🇺", "🗳️"],
+"links": [
+"https://www.youtube.com/watch?v=2aMsi-A56ds"
+],
+"topic": ["Cuba"],
+"tone": 4
+},
+{
+"title": "The Cuban Embargo Explained",
+"description": "Why does the USA hold an embargo over Cuba?",
+"duration": "14",
+"bg": ["🇺🇸", "🇨🇺"],
+"links": [
+"https://www.youtube.com/watch?v=zmM8p9n6Z9E"
+],
+"topic": ["Cuba", "USA"],
+"tone": 5
+},
+{
+"title": "The Truth About The Cuban Missile Crisis",
+"description": "Dismantling the basic US narrative of the Cuban Missile Crisis.",
+"duration": "13",
+"bg": ["🇨🇺", "☢️"],
+"links": [
+"https://www.youtube.com/watch?v=adrQweOX5c4"
+],
+"topic": ["Cuba", "USA"],
+"tone": 3
+},
+{
+"title": "Why is North Korea so Crazy?",
+"description": "Is North Korea evil? Or is that just what the media tells us?",
+"duration": "15",
+"bg": ["🇰🇵", "👀"],
+"links": [
+"https://www.youtube.com/watch?v=lS9Zti5oKrI"
+],
+"topic": ["DPRK"],
+"tone": 3
+},
+{
+"title": "The Bengal Famine and Winston Churchill",
+"description": "A look at Winston Churchill's involvement in the Bengal Famine of 1943.",
+"duration": "52",
+"bg": ["🇬🇧", "☠️"],
+"links": [
+"https://www.youtube.com/watch?v=plZkO3y9_hY"
+],
+"topic": ["UK", "India"],
+"tone": 4
+},
+{
+"title": "Is the USA a Force for Good in the World?",
+"description": "A sarcastic look at why the world views the USA as a force for evil.",
+"duration": "9",
+"bg": ["🇺🇸", "🧭"],
+"links": [
+"https://www.youtube.com/watch?v=0UDQ-rR30is"
+],
+"topic": ["USA"],
+"tone": 4
+},
+{
+"title": "Why Biden's New Bill Is So Terrifying",
+"description": "America's bill that makes it illegal to protest  the genocide of Palestinians.",
+"duration": "19",
+"bg": ["🇺🇸", "🇵🇸"],
+"links": [
+"https://www.youtube.com/watch?v=lnrcO61A79o",
+"https://means.tv/programs/secondthought?cid=3731825&permalink=second-thought_why-bidens-new-bill-is-so-terrifying"
+],
+"topic": ["USA", "Palestine"],
+"tone": 4
+},
+
+
+
+
+
+{
+"title": "WORD",
+"description": "WORDS",
+"duration": "TIME",
+"bg": ["EMOJI", "EMOJI"],
+"links": [
+"URL"
+],
+"topic": ["TAG"],
+"tone": FIFTHS
+},
 ]
