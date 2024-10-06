@@ -54,7 +54,7 @@ function labelTone(level) {
 function matchServices(url) {
 	const services = {
 		'youtube.com': {
-		logo: 'https://upload.wikimedia.org/wikipedia/commons/4/41/YouTube_icon_block.png'
+		logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/YouTube_social_red_squircle_%282017%29.svg/300px-YouTube_social_red_squircle_%282017%29.svg.png'
 		},
 		'nebula.tv': {
 		logo: 'https://upload.wikimedia.org/wikipedia/en/b/b6/Nebula_Logo.png'
