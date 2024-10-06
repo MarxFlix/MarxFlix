@@ -30,13 +30,13 @@ function labelTone(level) {
 	let output = '';
 	
 	if (level === 1) {
-		output = "Light";
+		output = "Minimal";
 	}
 	else if (level === 2) {
-		output = "Mild";
+		output = "Light";
 	}
 	else if (level === 3) {
-		output = "Moderate";
+		output = "Mild";
 	}
 	else if (level === 4) {
 		output = "Substantial";
