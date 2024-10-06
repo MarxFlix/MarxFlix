@@ -1,11 +1,11 @@
-function goToIndex() {
-    window.location.href = 'index.html';
-}
-
 fetch('data.json')
 .then(response => response.json())
 .then(entries => populateCarousels(entries))
 .catch(error => console.error('Err data load:', error));
+
+function goToIndex() {
+    window.location.href = 'index.html';
+}
 
 function getServiceAndLogo(url) {
 	const services = {
