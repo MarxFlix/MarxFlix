@@ -44,10 +44,10 @@ main {
 }
 
 .emoji-background {
-    font-size: 7rem;
-    width: inherit;
+    font-size: 7.9rem;
+    width: max-content;
     height: inherit;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -56,8 +56,8 @@ main {
     justify-content: center;
     align-items: center;
     pointer-events: none;
-    opacity: 0.4;
-    z-index: 0;
+    opacity: 0.12;
+    z-index: -10;
 }
 
 .carousel {
