@@ -46,7 +46,7 @@ function populateCarousels(entries) {
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
     				<div class="emoji-background">${emojis}</div>
-				<h3>${doc.title}</h3>
+				<h3>${doc.title} ${emojis}</h3>
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
 				<div class="tone">
