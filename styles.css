@@ -45,13 +45,13 @@ main {
 
 .emoji-background {
     font-size: 7rem;
-    width: relative;
-    height: relative;
-    position: absolute;
-    top: -1rem;
-    left: -1rem;
-    right: -1rem;
-    bottom: -1rem;
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
