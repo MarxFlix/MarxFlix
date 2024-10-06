@@ -14,7 +14,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,8 +45,8 @@ main {
 
 .emoji-background {
     font-size: 7.9rem;
-    width: 100%;
-    height: 100%;
+    width: max-content;
+    height: inherit;
     position: absolute;
     top: 0;
     left: 0;
@@ -90,7 +90,7 @@ main {
 }
 
 .spotlight {
-    background-color: #30B856;
+    background-color: #BDFFC6;
 }
 
 .doc-item {
@@ -102,7 +102,6 @@ main {
     max-width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     flex: 0 0 auto;
-    position: relative;
     z-index: 2;
 }
 
