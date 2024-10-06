@@ -21,6 +21,20 @@
             text-align: center;
         }
 
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("favicon.ico");
+            background-repeat: repeat;
+            background-size: 120px;
+            opacity: 0.1;
+            z-index: -10;
+        }
+
         h1 {
             color: #b83030;
             margin: 20px 0;
@@ -46,8 +60,8 @@
         .button {
             background-color: #ffdc82;
             color: #000000;
-            border: none;
             padding: 20px 40px;
+            border: 4px solid black;
             border-radius: 5px;
             font-size: 1.8em;
             cursor: pointer;
