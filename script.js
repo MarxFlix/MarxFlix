@@ -30,19 +30,19 @@ function labelTone(level) {
 	let output = '';
 	
 	if (level === 1) {
-		output = "Casual Entertainment";
+		output = "Light";
 	}
 	else if (level === 2) {
-		output = "Primarily Entertainment";
+		output = "Mild";
 	}
 	else if (level === 3) {
-		output = "Insightful Edutainment";
+		output = "Moderate";
 	}
 	else if (level === 4) {
-		output = "Primarily Informational";
+		output = "Substantial";
 	}
 	else if (level === 5) {
-		output = "Strictly Informational";
+		output = "Heavy";
 	}
 	else {
 		output = "ERR INVALID VALUE";
@@ -94,7 +94,7 @@ function populateCarousels(entries) {
 				<p>${doc.description}</p>
 				<p><b>Duration: ${formattedDuration}</b></p>
 				<div class="tone">
-					<span>Tone: ${labelledTone}</span>
+					<span>${labelledTone} Academic Density</span>
 					<div class="tone-container">
 					<div class="tone-bar" style="width: ${(tone / 5) * 100}%"></div>
 					</div>
