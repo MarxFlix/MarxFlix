@@ -54,16 +54,13 @@ function labelTone(level) {
 function matchServices(url) {
 	const services = {
 		'youtube.com': {
-		logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png'
+		logo: 'https://upload.wikimedia.org/wikipedia/commons/4/41/YouTube_icon_block.png'
 		},
 		'nebula.tv': {
 		logo: 'https://upload.wikimedia.org/wikipedia/en/b/b6/Nebula_Logo.png'
 		},
 		'means.tv': {
 		logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Means.tv_wordmark.jpg'
-		},
-		'vimeo.com': {
-		logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Vimeo_Logo.svg/70px-Vimeo_Logo.svg.png'
 		}
 	}
 
