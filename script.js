@@ -1,13 +1,57 @@
 fetch('data.json')
 .then(response => response.json())
 .then(entries => populateCarousels(entries))
-.catch(error => console.error('Err data load:', error));
+.catch(error => console.error('ERR DATA LOAD:', error));
 
-function goToIndex() {
-    window.location.href = 'index.html';
+function stringifyEmojis(emojis){
+	let output = emojis ? emojis.join('') : "⬜ ⬜";
+	return output;
 }
 
-function getServiceAndLogo(url) {
+function formatDuration(duration) {
+	let hours = 0;
+	let minutes = 0;
+	let output = '';
+	
+	if (duration.includes(':')) {
+		const parts = duration.split(':');
+		hours = parseInt(parts[0], 10);
+		minutes = parseInt(parts[1], 10);
+		output = `⏳ ${hours} 🕒 ${minutes}`;
+	} else {
+		minutes = parseInt(duration, 10);
+		output = `🕒 ${minutes}`;
+	}
+	
+	return output;
+}
+
+function labelTone(level) {
+	let output = '';
+	
+	if (level === 1) {
+		output = "Casual Entertainment";
+	}
+	else if (level === 2) {
+		output = "Primarily Entertainment";
+	}
+	else if (level === 3) {
+		output = "Insightful Edutainment";
+	}
+	else if (level === 4) {
+		output = "Primarily Informational";
+	}
+	else if (level === 5) {
+		output = "Strictly Informational";
+	}
+	else {
+		output = "ERR INVALID VALUE";
+	}
+	
+	return output;
+}
+
+function matchServices(url) {
 	const services = {
 		'youtube.com': {
 		logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png'
@@ -41,7 +85,7 @@ function populateCarousels(entries) {
 				const duration = doc.duration || '0';
 				const formattedDuration = formatDuration(duration);
 				const tone = doc.tone || '69';
-				const labelledTone = toneLabel(tone);
+				const labelledTone = labelTone(tone);
 				const docElement = document.createElement('div');
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
@@ -57,7 +101,7 @@ function populateCarousels(entries) {
 				</div>
 				<div class="links">
 					${doc.links.map(link => {
-					const { logo } = getServiceAndLogo(link);
+					const { logo } = matchServices(link);
 					return `
 					<a href="${link}" target="_blank">
 					<img src="${logo}" style="width: 50px; height: auto; vertical-align: middle;">
@@ -72,50 +116,6 @@ function populateCarousels(entries) {
 	});
 }
 
-function stringifyEmojis(emojis){
-	let output = emojis ? emojis.join('') : "⬜ ⬜";
-	return output;
-}
-
-function formatDuration(duration) {
-	let hours = 0;
-	let minutes = 0;
-	let output = '';
-	
-	if (duration.includes(':')) {
-		const parts = duration.split(':');
-		hours = parseInt(parts[0], 10);
-		minutes = parseInt(parts[1], 10);
-		output = `⏳ ${hours} 🕒 ${minutes}`;
-	} else {
-		minutes = parseInt(duration, 10);
-		output = `🕒 ${minutes}`;
-	}
-	
-	return output;
-}
-
-function toneLabel(level) {
-	let output = '';
-	
-	if (level === 1) {
-		output = "Casual Entertainment";
-	}
-	else if (level === 2) {
-		output = "Primarily Entertainment";
-	}
-	else if (level === 3) {
-		output = "Insightful Edutainment";
-	}
-	else if (level === 4) {
-		output = "Primarily Informational";
-	}
-	else if (level === 5) {
-		output = "Strictly Informational";
-	}
-	else {
-		output = "ERR: INVALID VALUE";
-	}
-	
-	return output;
+function goToIndex() {
+    window.location.href = 'index.html';
 }
