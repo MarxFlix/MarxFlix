@@ -1,5 +1,17 @@
 [
 {
+"title": "Socialism for Absolute Beginners",
+"description": "What is socialism, and is it really all that bad?",
+"duration": "25",
+"bg": ["👶", "⭐"],
+"links": [
+"https://www.youtube.com/watch?v=fpKsygbNLT4",
+"https://means.tv/programs/secondthought?cid=3568717&permalink=socialism-for-absolute-beginners"
+],
+"topic": ["Marxism"],
+"tone": 4
+},
+{
 "title": "Making the Case for a Planned Economy",
 "description": "Do planned economies work? Have they worked? Should we try to implement it in the 21st century?",
 "duration": "12",
@@ -7,30 +19,41 @@
 "links": [
 "https://www.youtube.com/watch?v=JOe1GsV8ZLM"
 ],
-"topic": ["Economy"],
+"topic": ["Marxism"],
 "tone": 4
 },
 {
 "title": "What is imperialism?",
-"description": "A live podcast all about imperialism.",
+"description": "A live podcast that details the concept of imperialism.",
 "duration": "1:04",
 "bg": ["🏛", "🌐"],
 "links": [
 "https://www.youtube.com/watch?v=gb3o-zDJgqI"
 ],
-"topic": ["Imperialism"],
+"topic": ["Marxism"],
 "tone": 4
 },
 {
 "title": "Debunking Every Anti-Communist Argument Ever",
 "description": "Debunking a series of anti-communist talking points.",
 "duration": "40",
-"bg": ["🗣", "⚔️"],
+"bg": ["📣", "⚔️"],
 "links": [
 "https://www.youtube.com/watch?v=MjwL1mSrPLA"
 ],
 "topic": ["Praxis"],
 "tone": 2
+},
+{
+"title": "How Economists Just Make Stuff Up",
+"description": "Explaining some of the deceptive practices common in the creation of many popular economics metrics & their use.",
+"duration": "48",
+"bg": ["📈", "🤔"],
+"links": [
+"https://www.youtube.com/watch?v=k12GGnTxyhI"
+],
+"topic": ["Praxis"],
+"tone": 4
 },
 {
 "title": "The Overton Window",
@@ -44,10 +67,76 @@
 "tone": 4
 },
 {
+"title": "Why Is There So Much Right-Wing Media?",
+"description": "Looking at the groups bankrolling far-right rhetoric and what they stand to gain from platforming these people.",
+"duration": "19",
+"bg": ["👉🏻", "📺"],
+"links": [
+"https://www.youtube.com/watch?v=7ApjSrB6E1c"
+],
+"topic": ["Praxis"],
+"tone": 3
+},
+{
+"title": "Who Funds And Controls The Online Right?",
+"description": "The influence of political influencers, and what influences said influencers.",
+"duration": "18",
+"bg": ["🧑‍🏫", "📢"],
+"links": [
+"https://www.youtube.com/watch?v=ggdt5rkqHrE"
+],
+"topic": ["Praxis"],
+"tone": 2
+},
+{
+"title": "Why are Americans so afraid of Socialism?",
+"description": "Analyzing the Red Scare and how it turns communists into monsters.",
+"duration": "23",
+"bg": ["🫣", "🇺🇸"],
+"links": [
+"https://www.youtube.com/watch?v=1bqc9xZV1nE"
+],
+"topic": ["Praxis", "USA"],
+"tone": 4
+},
+{
+"title": "\"But What About Human Nature!?\" is the Dumbest Conservative Argument.",
+"description": "Using the premise of the hit show Severance as a thought experiment about human nature.",
+"duration": "22",
+"bg": ["🧍", "🏹"],
+"links": [
+"https://www.youtube.com/watch?v=3k7_wE0GhVM"
+],
+"topic": ["Praxis", "Art"],
+"tone": 2
+},
+{
+"title": "Capitalist Philanthropy and Charity - Why it doesn't work",
+"description": "A rant about the deceptive nature of capitalist philanthropy.",
+"duration": "7",
+"bg": ["🤑", "💸"],
+"links": [
+"https://www.youtube.com/watch?v=gHYVLk3jbUM"
+],
+"topic": ["Praxis"],
+"tone": 3
+},
+{
+"title": "Neoliberalism Explained: Its Theory, Practice, and Consequences",
+"description": "Detailing what neoliberalism actually is.",
+"duration": "54",
+"bg": ["🌐", "🪙"],
+"links": [
+"https://www.youtube.com/watch?v=oWOH9iJhZXo"
+],
+"topic": ["Praxis"],
+"tone": 5
+},
+{
 "title": "Nationalism: Good? Bad? It's Complicated",
 "description": "Nationalism may be more than what you think it is!",
 "duration": "18",
-"bg": ["🏳", "🌐"],
+"bg": ["🏴", "🌐"],
 "links": [
 "https://www.youtube.com/watch?v=2GneiFly1GI"
 ],
@@ -55,15 +144,14 @@
 "tone": 3
 },
 {
-"title": "Socialism for Absolute Beginners",
-"description": "What is socialism, and is it really all that bad?",
-"duration": "25",
-"bg": ["👶", "☭"],
+"title": "The Only Leftist Reading List You'll Ever Need",
+"description": "A general introductory reading list for the basics of Socialism in only a handful of works.",
+"duration": "5",
+"bg": ["📚", "🔖"],
 "links": [
-"https://www.youtube.com/watch?v=fpKsygbNLT4",
-"https://means.tv/programs/secondthought?cid=3568717&permalink=socialism-for-absolute-beginners"
+"https://www.youtube.com/watch?v=QdwD7zwEpZw"
 ],
-"topic": ["Theory101"],
+"topic": ["Reading101"],
 "tone": 4
 },
 {
@@ -74,11 +162,48 @@
 "links": [
 "https://www.youtube.com/watch?v=XWGhnEcMZA0"
 ],
-"topic": ["Theory101"],
+"topic": ["Reading101"],
 "tone": 5
+},
+{
+"title": "Marxist Reading List for Beginners",
+"description": "A reading list for learning the basics of Marxism and Marxist theory.",
+"duration": "17",
+"bg": ["👶", "📚"],
+"links": [
+"https://www.youtube.com/watch?v=J_Wt8eUbeOQ"
+],
+"topic": ["Reading101"],
+"tone": 3
 },
 
 
+
+
+
+
+{
+"title": "The Problem With Genocide",
+"description": "What happens when you let the criminals define the crime?",
+"duration": "29",
+"bg": ["☠️", "🪦"],
+"links": [
+"https://www.youtube.com/watch?v=m316DcYhb8w"
+],
+"topic": ["Genocide"],
+"tone": 5
+},
+{
+"title": "Are Landlords Really That Bad?",
+"description": "Investigating the role landlords play in modern society, and whether or not they're really as bad as everyone says.",
+"duration": "19",
+"bg": ["🤑", "🏚️"],
+"links": [
+"https://www.youtube.com/watch?v=m1m7WmKJZyQ"
+],
+"topic": ["Housing"],
+"tone": 2
+},
 {
 "title": "Why Housing Keeps Getting More Expensive",
 "description": "The financialization of housing.",
@@ -139,6 +264,17 @@
 "tone": 3
 },
 {
+"title": "How Capitalism Causes Loneliness",
+"description": "Study after study confirms that we're all lonelier and more depressed than ever. Why is that?",
+"duration": "18",
+"bg": ["🧍", "🧠"],
+"links": [
+"https://www.youtube.com/watch?v=BwQCnltp9lo"
+],
+"topic": ["MentalHealth"],
+"tone": 3
+},
+{
 "title": "How Capitalism Causes Depression",
 "description": "How capitalism ruins our mental health.",
 "duration": "21",
@@ -147,6 +283,17 @@
 "https://www.youtube.com/watch?v=OOt6pOjJc5E"
 ],
 "topic": ["MentalHealth"],
+"tone": 5
+},
+{
+"title": "How Race Was Invented",
+"description": "The history of the intentional creation of race & racism by human beings.",
+"duration": "1:02",
+"bg": ["👥", "🏷"],
+"links": [
+"https://www.youtube.com/watch?v=q7sxTnWeQ8s"
+],
+"topic": ["Racism"],
 "tone": 5
 },
 {
@@ -160,6 +307,17 @@
 ],
 "topic": ["Racism", "India"],
 "tone": 3
+},
+{
+"title": "The Last Acceptable Bad Guy Sterotype - \"Evil Slavs\"",
+"description": "How positive representation based on profit is unethical and unpractical.",
+"duration": "11",
+"bg": ["🦹‍♂️", "🌍"],
+"links": [
+"https://www.youtube.com/watch?v=-WRP2F1Io94"
+],
+"topic": ["Racism"],
+"tone": 2
 },
 {
 "title": "How Capitalism Destroys Feminism",
@@ -187,7 +345,7 @@
 "title": "Why We Need Socialism",
 "description": "How and why socialism is crucial to mitigating climate change and building a just and equitable world.",
 "duration": "29",
-"bg": ["🌱", "☭"],
+"bg": ["🏞️", "🌱"],
 "links": [
 "https://www.youtube.com/watch?v=DjUr2HwdHwg",
 "https://nebula.tv/videos/occ-how-we-end-capitalism"
@@ -195,9 +353,42 @@
 "topic": ["Environment"],
 "tone": 4
 },
+{
+"title": "The Environmentalist Colonial Gaze",
+"description": "How many environmentalists get the third world wrong.",
+"duration": "18",
+"bg": ["🏭", "🪧"],
+"links": [
+"https://www.youtube.com/watch?v=yhylNGKpLjE"
+],
+"topic": ["Environment"],
+"tone": 3
+},
 
 
 
+{
+"title": "How Capitalism Helped Ruin The Family",
+"description": "How the family structure has been commodified.",
+"duration": "18",
+"bg": ["👨‍👩‍👦", "🏘"],
+"links": [
+"https://www.youtube.com/watch?v=XaCZUpFPl7I"
+],
+"topic": ["Family"],
+"tone": 2
+},
+{
+"title": "Capitalism is Ruining Your Love Life",
+"description": "The commodification of love, romance, and the family.",
+"duration": "18",
+"bg": ["💏🏻", "💔"],
+"links": [
+"https://www.youtube.com/watch?v=_iLnZ4HCrfo"
+],
+"topic": ["Family"],
+"tone": 2
+},
 {
 "title": "How 'Terrorism' Became a Dirty Word",
 "description": "The history of the word 'Terrorism', from 19th century Russia to today.",
@@ -210,10 +401,21 @@
 "tone": 4
 },
 {
+"title": "The Truth About Latinx - Gender-Neutral Language in Spanish",
+"description": "A primer on inclusive language in Spanish that refutes some pervasive myths.",
+"duration": "9",
+"bg": ["⚧️", "📜"],
+"links": [
+"https://www.youtube.com/watch?v=P3yfGQivroE"
+],
+"topic": ["Language"],
+"tone": 1
+},
+{
 "title": "Why Socialism is Red",
 "description": "The red flag is an icon of the socialist movement, but have you ever stopped to wonder why?",
 "duration": "6",
-"bg": ["☭", "🚩"],
+"bg": ["🚩", "♥️"],
 "links": [
 "https://www.youtube.com/watch?v=MFc485MaAyY"
 ],
@@ -243,6 +445,17 @@
 "tone": 2
 },
 {
+"title": "Why Leftists Can't Enjoy Anything",
+"description": "The truth to the stereotype that leftists cannot enjoy anything.",
+"duration": "23",
+"bg": ["😓", "📺"],
+"links": [
+"https://www.youtube.com/watch?v=g2997ZfjDcQ"
+],
+"topic": ["Art"],
+"tone": 1
+},
+{
 "title": "Guns, Germs and Steel: A Historical Critique",
 "description": "A critique of chapter 3 of Jared Diamond's book.",
 "duration": "54",
@@ -250,7 +463,7 @@
 "links": [
 "https://www.youtube.com/watch?v=kq6EuZj4axA"
 ],
-"topic": ["Art"],
+"topic": ["Art", "Genocide"],
 "tone": 3
 },
 {
@@ -264,9 +477,34 @@
 "topic": ["Art"],
 "tone": 1
 },
+{
+"title": "Why Gamers Should be against Capitalism",
+"description": "A rant about how capitalism works against those who enjoy video games.",
+"duration": "15",
+"bg": ["🎮", "🕹️"],
+"links": [
+"https://www.youtube.com/watch?v=AL6F2E3sHVw"
+],
+"topic": ["Art"],
+"tone": 1
+},
 
 
 
+
+
+
+{
+"title": "Argentina Was Never Rich: The Myth of Economic Decline",
+"description": "An in-depth look at why Argentina allegedly declined from rich to poor.",
+"duration": "1:00",
+"bg": ["🇦🇷", "📉"],
+"links": [
+"https://www.youtube.com/watch?v=EeCu8pMHma0"
+],
+"topic": ["Argentina", "Economics"],
+"tone": 5
+},
 {
 "title": "Remembering Argentina's Dictatorship: History as Social Conflict",
 "description": "Remembering Argentina's chaotic and violent 1973-1983 period.",
@@ -279,6 +517,17 @@
 "tone": 3
 },
 {
+"title": "Photos From Hell",
+"description": "The Images Recovered From Argentina’s Most Notorious Death Camp.",
+"duration": "15",
+"bg": ["🎞", "🔥"],
+"links": [
+"https://www.youtube.com/watch?v=AoQO0WcshF4"
+],
+"topic": ["Argentina"],
+"tone": 5
+},
+{
 "title": "Taking History for Granted: Batman's Treaty",
 "description": "Exploring common sense history through Aboriginal Australia.",
 "duration": "29",
@@ -287,6 +536,39 @@
 "https://www.youtube.com/watch?v=K0cLGou6cbM"
 ],
 "topic": ["Australia"],
+"tone": 4
+},
+{
+"title": "Operation Car Wash (Lava Jato) - How the U.S. Helped Destroy Brazil's Democracy",
+"description": "Investigating a campaign against the Brazilian left that was backed by the US Government.",
+"duration": "1:33",
+"bg": ["🏛", "🇧🇷"],
+"links": [
+"https://www.youtube.com/watch?v=hRC3PBjthxI"
+],
+"topic": ["Brazil", "USA"],
+"tone": 4
+},
+{
+"title": "Did the CIA and the Queen Overthrow the Australian Government?",
+"description": "A look at the dismissal of Prime Minister Gough Whitlam in 1975 & the theories surrounding it.",
+"duration": "37",
+"bg": ["🇦🇺", "🔃"],
+"links": [
+"https://www.youtube.com/watch?v=NgjHMZxZTtg"
+],
+"topic": ["Australia", "USA", "UK"],
+"tone": 4
+},
+{
+"title": "Crimea vs Taiwan: Who Gets Self-Determination?",
+"description": "Exploring the principle of self-determination and its modern problems through examples.",
+"duration": "51",
+"bg": ["🇹🇼", "🤔"],
+"links": [
+"https://www.youtube.com/watch?v=1W_UH4fmyj0"
+],
+"topic": ["China", "Ukraine", "Palestine"],
 "tone": 4
 },
 {
@@ -312,6 +594,17 @@
 "tone": 4
 },
 {
+"title": "The U.S. Embargo on Cuba Is Much Worse Than It Seems",
+"description": "Explaining how the Cuban embargo negatively affects all of Cuba's trade.",
+"duration": "4",
+"bg": ["🇺🇸", "🇨🇺"],
+"links": [
+"https://www.youtube.com/watch?v=dM7_wTqDUCU"
+],
+"topic": ["Cuba", "USA"],
+"tone": 2
+},
+{
 "title": "The Cuban Embargo Explained",
 "description": "Why does the USA hold an embargo over Cuba?",
 "duration": "14",
@@ -319,7 +612,7 @@
 "links": [
 "https://www.youtube.com/watch?v=zmM8p9n6Z9E"
 ],
-"topic": ["Cuba", "USA"],
+"topic": ["Cuba", "USA", "Genocide"],
 "tone": 5
 },
 {
@@ -345,6 +638,39 @@
 "tone": 3
 },
 {
+"title": "What You Need To Know About Palestine",
+"description": "An overview of resources that reveal truths about the ethnic cleansing of Palestine.",
+"duration": "10",
+"bg": ["🇵🇸", "📚"],
+"links": [
+"https://www.youtube.com/watch?v=5pLvt8PNhCI"
+],
+"topic": ["Palestine"],
+"tone": 4
+},
+{
+"title": "Revolutionary Optimism and Student Protests: from Vietnam to Palestine!",
+"description": "A message to pro-Palestinian protesters in the USA and the imperial core.",
+"duration": "9",
+"bg": ["🇵🇸", "✊"],
+"links": [
+"https://www.youtube.com/watch?v=p4LzPS-fVM8"
+],
+"topic": ["Palestine", "Vietnam"],
+"tone": 2
+},
+{
+"title": "October 7th: The Real History",
+"description": "A look at the often ignored history behind the events of October 7th, 2023.",
+"duration": "29",
+"bg": ["🇵🇸", "🇮🇱"],
+"links": [
+"https://www.youtube.com/watch?v=mxoemHwhyLo"
+],
+"topic": ["Palestine"],
+"tone": 5
+},
+{
 "title": "The Bengal Famine and Winston Churchill",
 "description": "A look at Winston Churchill's involvement in the Bengal Famine of 1943.",
 "duration": "52",
@@ -352,7 +678,7 @@
 "links": [
 "https://www.youtube.com/watch?v=plZkO3y9_hY"
 ],
-"topic": ["UK", "India"],
+"topic": ["UK", "India", "Genocide"],
 "tone": 4
 },
 {
@@ -363,8 +689,19 @@
 "links": [
 "https://www.youtube.com/watch?v=0UDQ-rR30is"
 ],
-"topic": ["USA"],
+"topic": ["USA", "Genocide"],
 "tone": 4
+},
+{
+"title": "How the USA Inspired the Nazis - From Manifest Destiny to Lebensraum",
+"description": "A deep dive into the parallels between the USA's expansion and Nazi ideals.",
+"duration": "1:53",
+"bg": ["🇺🇸", "☠️"],
+"links": [
+"https://www.youtube.com/watch?v=R1gcipAvplY"
+],
+"topic": ["USA", "Racism", "Genocide"],
+"tone": 5
 },
 {
 "title": "Why Biden's New Bill Is So Terrifying",
@@ -378,6 +715,32 @@
 "topic": ["USA", "Palestine"],
 "tone": 4
 },
+
+
+
+{
+"title": "Why Did The Soviet Union Fall?",
+"description": "Investigating the mechanisms behind The Soviet Union's dissolution.",
+"duration": "19",
+"bg": ["⚒️", "📉"],
+"links": [
+"https://www.youtube.com/watch?v=w72mLI_FaR0"
+],
+"topic": ["USSR", "Praxis"],
+"tone": 4
+},
+{
+"title": "The Holodomor Genocide Question: How Wikipedia Lies to You",
+"description": "A look at whether the Soviet Famine of 1932-33 was an intentional, planned genocide of Ukrainians, & Wikipedia's presentation of that question.",
+"duration": "1:37",
+"bg": ["📖", "🇺🇦"],
+"links": [
+"https://www.youtube.com/watch?v=3kaaYvauNho"
+],
+"topic": ["USSR", "Ukraine", "Praxis", "Genocide"],
+"tone": 5
+},
+
 
 
 
