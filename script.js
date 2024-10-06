@@ -102,10 +102,10 @@ function toneLabel(level) {
 		output = "Entertainment";
 	}
 	else if (level === 2) {
-		output = "Edutainment";
+		output = "Insightful Entertainment";
 	}
 	else if (level === 3) {
-		output = "Insightful";
+		output = "Edutainment";
 	}
 	else if (level === 4) {
 		output = "Informational";
