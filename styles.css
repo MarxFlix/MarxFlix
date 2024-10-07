@@ -27,6 +27,8 @@ header h1 {
 #back-button {
     background-color: #ffdc82;
     color: #000000;
+    font-weight: bold;
+    font-family: Poppins;
     padding: 10px 15px;
     border: 2px solid black;
     border-radius: 5px;
@@ -93,6 +95,7 @@ main {
 
 .spotlight {
     background-color: #BDFFC6;
+    border: 2px dashed #69614D;
 }
 
 .doc-item {
