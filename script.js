@@ -3,6 +3,25 @@ fetch('data.json')
 .then(entries => populateCarousels(entries))
 .catch(error => console.error('ERR DATA LOAD:', error));
 
+function getOffWhite() {
+    const whites = [
+        "#FFFAE1",
+        "#FFE3D8",
+        "#FFE4E1",
+        "#E8FFED",
+        "#D6FFFF",
+        "#E1F2FF",
+        "#E6E1FF",
+        "#F5E6FF",
+        "#FFEBE5",
+        "#BDFFC6",
+        "#F2F2F2",
+        "#F5E5C5"
+    ];
+    const randomNum = Math.floor(Math.random() * colors.length);
+    return whites[randomNum];
+}
+
 function stringifyEmojis(emojis){
 	let output = emojis ? emojis.join('') : "⬜ ⬜";
 	return output;
@@ -84,6 +103,7 @@ function populateCarousels(entries) {
 				const tone = doc.tone || '69';
 				const labelledTone = labelTone(tone);
 				const docElement = document.createElement('div');
+				docElement.background = getOffWhite();
 				docElement.className = 'doc-item';
 				docElement.innerHTML = `
     				<div class="emoji-background">${emojis}</div>
