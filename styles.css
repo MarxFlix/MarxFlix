@@ -57,6 +57,7 @@ main {
     align-items: center;
     pointer-events: none;
     opacity: 0.12;
+    filter: saturate(200%) blur(3px);
     z-index: -10;
 }
 
