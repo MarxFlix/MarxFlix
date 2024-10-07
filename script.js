@@ -5,18 +5,16 @@ fetch('data.json')
 
 function getOffWhite() {
     const whites = [
-        "#FFFAE1",
-        "#FFE3D8",
-        "#FFE4E1",
-        "#E8FFED",
-        "#D6FFFF",
-        "#E1F2FF",
-        "#E6E1FF",
-        "#F5E6FF",
-        "#FFEBE5",
-        "#BDFFC6",
-        "#F2F2F2",
-        "#F5E5C5"
+        "#FFF5E1",
+	"#FFE1E1",
+	"#E1F5FE",
+	"#E1F7E1",
+	"#F1E1F7",
+	"#FFFFE1",
+	"#F5F5FF",
+	"#FFE8D1",
+	"#E1FFFA",
+	"#FFE1E1"
     ];
     const randomNum = Math.floor(Math.random() * whites.length);
     return whites[randomNum];
