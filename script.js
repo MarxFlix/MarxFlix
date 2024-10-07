@@ -18,7 +18,7 @@ function getOffWhite() {
         "#F2F2F2",
         "#F5E5C5"
     ];
-    const randomNum = Math.floor(Math.random() * colors.length);
+    const randomNum = Math.floor(Math.random() * whites.length);
     return whites[randomNum];
 }
 
