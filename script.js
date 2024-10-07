@@ -103,8 +103,8 @@ function populateCarousels(entries) {
 				const tone = doc.tone || '69';
 				const labelledTone = labelTone(tone);
 				const docElement = document.createElement('div');
-				docElement.background = getOffWhite();
 				docElement.className = 'doc-item';
+				docElement.style.backgroundColor = getOffWhite();
 				docElement.innerHTML = `
     				<div class="emoji-background">${emojis}</div>
 				<h3>${doc.title} ${emojis}</h3>
