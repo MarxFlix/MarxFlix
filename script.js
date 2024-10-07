@@ -9,12 +9,12 @@ function getOffWhite() {
 	"#FFF4F4",
 	"#E0FFFF",
 	"#F0FFFF",
-	"#F4E1FF",
-	"#FFFFF5",
-	"#F5FFFF",
-	"#F8F8E1",
-	"#FFEFF1",
-	"#FFF1E1"
+	"#F8F8FF",
+	"#FFFFF0",
+	"#F5F5F5",
+	"#FFF5FA",
+	"#F0F0F0",
+	"#FFF1F1"
     ];
     const randomNum = Math.floor(Math.random() * whites.length);
     return whites[randomNum];
